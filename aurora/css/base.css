@@ -171,10 +171,10 @@ body::before {
 /*Makes aurora compatible with monsters addons*/
 .theme-dark,
 .appMount-3VJmYg {
-	--primary-color: rgba(0,0,0,0.75);
-	--secondary-color: rgba(0,0,0,0.6);
-	--tertiary-color: rgba(0,0,0,0.4);
-	--quaternary-color: rgba(0,0,0,0.7);
+    	--primary-color: rgba(0,0,0,0.75);
+   	--secondary-color: rgba(0,0,0,0.8);
+   	--tertiary-color: rgba(0,0,0,0.8);
+   	--quaternary-color: rgba(0,0,0,0.7);
 }
 
 /*1.b. Spacing*/
@@ -206,7 +206,7 @@ body::before {
 
 /*1.d. Light Mode Blocker (Based on MasicoreLord's Light Theme blocker, taken with permission). */
 .theme-light .layer-3QrUeG:first-of-type::before {
-  content: "Sorry, but light mode isnt supported in Aurora yet. :( ~Tropical";
+  content: "Sorry, but light mode isnt supported in PI yet. :( ~STITCH";
   text-align:center;
   width: 500px;
   position:absolute;
@@ -276,7 +276,7 @@ body::before {
     padding-top:0px !important;
 }
 .wordmark-2iDDfm:after {
-	content:'Aurora v2.6';
+	content:'PI THEME BY STITCH';
 	position: absolute !important;
 	left: 5px;
 	width: 100vw;
